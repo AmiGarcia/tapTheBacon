@@ -10,4 +10,8 @@
 
 @interface ViewControllerHighScore : UIViewController
 
+@property NSInteger hs;
+
+
+
 @end

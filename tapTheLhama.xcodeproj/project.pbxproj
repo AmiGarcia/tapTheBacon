@@ -14,6 +14,17 @@
 		400CB3511A9F9EE10061DB52 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 400CB3501A9F9EE10061DB52 /* Images.xcassets */; };
 		400CB3541A9F9EE10061DB52 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 400CB3521A9F9EE10061DB52 /* LaunchScreen.xib */; };
 		400CB3601A9F9EE10061DB52 /* tapTheLhamaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 400CB35F1A9F9EE10061DB52 /* tapTheLhamaTests.m */; };
+		400CB36C1A9FA1E30061DB52 /* crazyBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 400CB36B1A9FA1E30061DB52 /* crazyBG.png */; };
+		400CB36E1A9FA5330061DB52 /* lhama_cool.png in Resources */ = {isa = PBXBuildFile; fileRef = 400CB36D1A9FA5330061DB52 /* lhama_cool.png */; };
+		400CB3781AA0F04C0061DB52 /* lhama_jogar.png in Resources */ = {isa = PBXBuildFile; fileRef = 400CB3771AA0F04C0061DB52 /* lhama_jogar.png */; };
+		400CB37A1AA0F2C20061DB52 /* lhama_highscore.png in Resources */ = {isa = PBXBuildFile; fileRef = 400CB3791AA0F2C20061DB52 /* lhama_highscore.png */; };
+		400CB3831AA4C10D0061DB52 /* score_buttonTL.png in Resources */ = {isa = PBXBuildFile; fileRef = 400CB3811AA4C10D0061DB52 /* score_buttonTL.png */; };
+		400CB3841AA4C10D0061DB52 /* time_buttonTL.png in Resources */ = {isa = PBXBuildFile; fileRef = 400CB3821AA4C10D0061DB52 /* time_buttonTL.png */; };
+		400CB3861AA4C4170061DB52 /* highScore.png in Resources */ = {isa = PBXBuildFile; fileRef = 400CB3851AA4C4170061DB52 /* highScore.png */; };
+		400CB3891AA4C7080061DB52 /* ViewControllerHighScore.m in Sources */ = {isa = PBXBuildFile; fileRef = 400CB3881AA4C7080061DB52 /* ViewControllerHighScore.m */; };
+		400CB38C1AA4CE000061DB52 /* ViewControllerMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 400CB38B1AA4CE000061DB52 /* ViewControllerMenu.m */; };
+		400CB38E1AA4F16F0061DB52 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 400CB38D1AA4F16F0061DB52 /* AVFoundation.framework */; };
+		400CB3901AA4F28D0061DB52 /* lhamaSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 400CB38F1AA4F28D0061DB52 /* lhamaSound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +39,6 @@
 
 /* Begin PBXFileReference section */
 		400CB3401A9F9EE10061DB52 /* tapTheLhama.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tapTheLhama.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		400CB3441A9F9EE10061DB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		400CB3451A9F9EE10061DB52 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		400CB3471A9F9EE10061DB52 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		400CB3481A9F9EE10061DB52 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,6 +50,19 @@
 		400CB3591A9F9EE10061DB52 /* tapTheLhamaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tapTheLhamaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		400CB35E1A9F9EE10061DB52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		400CB35F1A9F9EE10061DB52 /* tapTheLhamaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tapTheLhamaTests.m; sourceTree = "<group>"; };
+		400CB36B1A9FA1E30061DB52 /* crazyBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crazyBG.png; sourceTree = "<group>"; };
+		400CB36D1A9FA5330061DB52 /* lhama_cool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lhama_cool.png; sourceTree = "<group>"; };
+		400CB3771AA0F04C0061DB52 /* lhama_jogar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lhama_jogar.png; sourceTree = "<group>"; };
+		400CB3791AA0F2C20061DB52 /* lhama_highscore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lhama_highscore.png; sourceTree = "<group>"; };
+		400CB3811AA4C10D0061DB52 /* score_buttonTL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = score_buttonTL.png; sourceTree = "<group>"; };
+		400CB3821AA4C10D0061DB52 /* time_buttonTL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time_buttonTL.png; sourceTree = "<group>"; };
+		400CB3851AA4C4170061DB52 /* highScore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = highScore.png; sourceTree = "<group>"; };
+		400CB3871AA4C7080061DB52 /* ViewControllerHighScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerHighScore.h; sourceTree = "<group>"; };
+		400CB3881AA4C7080061DB52 /* ViewControllerHighScore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerHighScore.m; sourceTree = "<group>"; };
+		400CB38A1AA4CE000061DB52 /* ViewControllerMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewControllerMenu.h; sourceTree = "<group>"; };
+		400CB38B1AA4CE000061DB52 /* ViewControllerMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerMenu.m; sourceTree = "<group>"; };
+		400CB38D1AA4F16F0061DB52 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		400CB38F1AA4F28D0061DB52 /* lhamaSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = lhamaSound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400CB38E1AA4F16F0061DB52 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +87,7 @@
 		400CB3371A9F9EE10061DB52 = {
 			isa = PBXGroup;
 			children = (
+				400CB38D1AA4F16F0061DB52 /* AVFoundation.framework */,
 				400CB3421A9F9EE10061DB52 /* tapTheLhama */,
 				400CB35C1A9F9EE10061DB52 /* tapTheLhamaTests */,
 				400CB3411A9F9EE10061DB52 /* Products */,
@@ -85,6 +110,10 @@
 				400CB3481A9F9EE10061DB52 /* AppDelegate.m */,
 				400CB34A1A9F9EE10061DB52 /* ViewController.h */,
 				400CB34B1A9F9EE10061DB52 /* ViewController.m */,
+				400CB38A1AA4CE000061DB52 /* ViewControllerMenu.h */,
+				400CB38B1AA4CE000061DB52 /* ViewControllerMenu.m */,
+				400CB3871AA4C7080061DB52 /* ViewControllerHighScore.h */,
+				400CB3881AA4C7080061DB52 /* ViewControllerHighScore.m */,
 				400CB34D1A9F9EE10061DB52 /* Main.storyboard */,
 				400CB3501A9F9EE10061DB52 /* Images.xcassets */,
 				400CB3521A9F9EE10061DB52 /* LaunchScreen.xib */,
@@ -96,7 +125,14 @@
 		400CB3431A9F9EE10061DB52 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				400CB3441A9F9EE10061DB52 /* Info.plist */,
+				400CB38F1AA4F28D0061DB52 /* lhamaSound.mp3 */,
+				400CB3851AA4C4170061DB52 /* highScore.png */,
+				400CB3811AA4C10D0061DB52 /* score_buttonTL.png */,
+				400CB3821AA4C10D0061DB52 /* time_buttonTL.png */,
+				400CB3791AA0F2C20061DB52 /* lhama_highscore.png */,
+				400CB3771AA0F04C0061DB52 /* lhama_jogar.png */,
+				400CB36D1A9FA5330061DB52 /* lhama_cool.png */,
+				400CB36B1A9FA1E30061DB52 /* crazyBG.png */,
 				400CB3451A9F9EE10061DB52 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -199,9 +235,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400CB3831AA4C10D0061DB52 /* score_buttonTL.png in Resources */,
+				400CB36E1A9FA5330061DB52 /* lhama_cool.png in Resources */,
+				400CB3861AA4C4170061DB52 /* highScore.png in Resources */,
+				400CB37A1AA0F2C20061DB52 /* lhama_highscore.png in Resources */,
 				400CB34F1A9F9EE10061DB52 /* Main.storyboard in Resources */,
+				400CB36C1A9FA1E30061DB52 /* crazyBG.png in Resources */,
+				400CB3841AA4C10D0061DB52 /* time_buttonTL.png in Resources */,
 				400CB3541A9F9EE10061DB52 /* LaunchScreen.xib in Resources */,
 				400CB3511A9F9EE10061DB52 /* Images.xcassets in Resources */,
+				400CB3901AA4F28D0061DB52 /* lhamaSound.mp3 in Resources */,
+				400CB3781AA0F04C0061DB52 /* lhama_jogar.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +266,8 @@
 				400CB34C1A9F9EE10061DB52 /* ViewController.m in Sources */,
 				400CB3491A9F9EE10061DB52 /* AppDelegate.m in Sources */,
 				400CB3461A9F9EE10061DB52 /* main.m in Sources */,
+				400CB3891AA4C7080061DB52 /* ViewControllerHighScore.m in Sources */,
+				400CB38C1AA4CE000061DB52 /* ViewControllerMenu.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,9 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <AVFoundation/AVFoundation.h>
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController<UIAlertViewDelegate>{
+    
+NSInteger points;
+NSInteger seconds;
+NSTimer *timer;
+NSInteger taps;
+    
+    AVAudioPlayer *lhamaSound;
+    
+    
+}
+@property NSInteger highScore;
 
 @end
 

@@ -7,8 +7,10 @@
 //
 
 #import "ViewControllerHighScore.h"
+#import "AppDelegate.h"
 
 @interface ViewControllerHighScore ()
+@property (weak, nonatomic) IBOutlet UILabel *bestScorelbl;
 
 @end
 
@@ -16,13 +18,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.bestScorelbl.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"highScore.png"]];
+   
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"crazyBG.png"]];
     // Do any additional setup after loading the view.
+}
+-(void)viewWillAppear:(BOOL)animated{
+    AppDelegate *hs = [[UIApplication sharedApplication] delegate];
+     self.bestScorelbl.text = [NSString stringWithFormat:@"HighScore: \n\t%ld",hs.highScoreGame];
+    
+
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 
 /*
 #pragma mark - Navigation
